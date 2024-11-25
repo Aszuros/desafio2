@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Noto Sans", sans-serif;
+    
+}
+header{
+
+    height: 20vh;
+    display: flex ;
+    justify-content: space-around;
+    background-color: #FF69B4;
+    
+    section{
+        width: 95%;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+
+    }
+    button{
+        padding: 10px 30px;
+        border: none;
+        background: transparent;
+        cursor: pointer;
+        color: white;
+        font-size: 22px;
+        
+    }
+    h1{
+        color: white;
+        padding-right: 50%;
+        font-size: 40px;
+    }
+ 
+
+}
+
+.column {
+    float: left;
+    width: 25%;
+    padding: 5px;
+    display: flex;
+    justify-content: left;
+    background-color: #FFD9EC;
+    
+}
+
+.row::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+main{
+    background-color: #FFD9EC;
+}
+    
+
+h3{
+    color: white;
+    font-size: 35px;
+    background-color: #FF69B4;
+}
+
+.caixa-titulo1
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.caixa-titulo2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.column2{
+    align-items: center;
+    justify-content: center;
+    background-color: #FF69B4;
+    display: flex;
+}
